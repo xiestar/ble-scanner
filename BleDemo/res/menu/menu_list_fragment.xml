@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+         <item android:id="@+id/menu_progress"
+          android:title="@string/menu_progress"
+          android:actionLayout="@layout/actionbar_indeterminate_progress"
+          android:checkable="false"
+          android:orderInCategory="1"
+          android:showAsAction="always"/> 
+    
+    
+    <item android:id="@+id/menu_switch"
+          android:title="@string/menu_stop"
+          android:orderInCategory="101"
+          android:showAsAction="ifRoom|withText"/>
+
+</menu>
